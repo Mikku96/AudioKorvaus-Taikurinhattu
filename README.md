@@ -26,4 +26,4 @@ Tässä kuitenkin vähän tietoa projektin sisällöstä
 
 #5 Käytyään Audacityn prosessoinnin läpi, uudet äänitiedostot muunnetaan .AIF muotoon FFMPEG:n avulla ja lähetetään lopputulosten kansioon.
 
-#6 Lopuksi välitiedostot poistetaan
+#6 Lopuksi välitiedostot poistetaan ja pelin tiedostot pakataan .ISO muotoon.
