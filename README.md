@@ -1,6 +1,6 @@
 # AudioKorvaus- Muumit ja Taikurinhattu (PC)
 
-Hyvin vanhan projektin tarkoituksena oli korvata Muumit ja Taikurinhattu (PC) pelin äänitiedostot omilla huumoritarkoituksella.
+Hyvin vanhan projektin (2019) tarkoituksena oli korvata Muumit ja Taikurinhattu (PC) pelin äänitiedostot omilla huumoritarkoituksella.
 
 Vaikka tämä projekti on julkisesti nähtävillä, ei sitä voi suoraan ajaa tällä hetkellä, sillä:
 * Projekti oli tarkoitettu ajettavaksi vain kerran ja hyvin tietyissä olosuhteissa - scripti olettaa kansiorakenteita.
