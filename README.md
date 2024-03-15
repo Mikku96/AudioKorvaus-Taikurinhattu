@@ -24,6 +24,6 @@ Tässä kuitenkin vähän tietoa projektin sisällöstä
 
 * Audacity 2.3.2 versiota sovellettiin tässä projektissa
 
-#5 Käytyään Audacityn prosessoinnin läpi, uudet äänitiedostot muunnetaan .AIF muotoon FFMPEG:n avulla ja lähetetään lopputulosten kansioon.
+#5 Käytyään Audacityn prosessoinnin läpi, uudet äänitiedostot muunnetaan .AIF muotoon FFMPEG:n avulla, tiedostoon lisätään hetki hiljaisuutta (silemce.AIF) ja lähetetään lopputulosten kansioon.
 
 #6 Lopuksi välitiedostot poistetaan ja pelin tiedostot pakataan .ISO muotoon.
