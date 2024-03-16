@@ -29,13 +29,13 @@ if not os.path.isfile("lahteet.txt"):
 	lahteet.write(''+os.path.abspath(askopenfilename())+'\n')	
 	lahteet.close()
 else:
-	input('OK?')	
+	input('OK')	
 #----------------------------------------------------------#    
   
 #----------------------------------------------------------#
 #TYHJENNÄ VANHAT TIEDOSTOT
 #----------------------------------------------------------#
-tyhjennys="C:\\Users\\Miku\\Desktop\\tyo\\pidennetyt" # Tiedostoja on pidennetty hiljaisuudella, poistetaan. Poistaa esim. APESPILX kansiosta tiedostot
+tyhjennys="C:\\Users\\User\\Desktop\\tyo\\pidennetyt" # Tiedostoja on pidennetty hiljaisuudella, poistetaan. Poistaa esim. APESPILX kansiosta tiedostot
 k = os.listdir(tyhjennys)
 for i in k:
 	u = os.path.join(tyhjennys,i)
@@ -44,7 +44,7 @@ for i in k:
 		m = os.path.join(u,j)
 		os.remove(m)
 
-tyhjennys="C:\\Users\\Miku\\Desktop\\tyo\\isoon\\MUMMEDIA\\" # Tiedostot, jotka aiemmin oli prepattu ISO tiedostoon siirtoon. Poistetaan vanhat kuin edellä.
+tyhjennys="C:\\Users\\User\\Desktop\\tyo\\isoon\\MUMMEDIA\\" # Tiedostot, jotka aiemmin oli prepattu ISO tiedostoon siirtoon. Poistetaan vanhat kuin edellä.
 for i in k:
 	u =os.path.join(tyhjennys,i)
 	w = os.listdir(u)
@@ -52,7 +52,7 @@ for i in k:
 		m = os.path.join(u,j)
 		os.remove(m)
 
-tyhjennys="C:\\Users\\Miku\\Desktop\\tyo\\Muumit" #VIELÄ EPÄSELVÄ, miksi tyhjennän tämän...
+tyhjennys="C:\\Users\\User\\Desktop\\tyo\\Muumit" #
 k = os.listdir(tyhjennys)
 for i in k:
 	u = os.path.join(tyhjennys,i)
@@ -60,7 +60,7 @@ for i in k:
 	for j in w:
 		m = os.path.join(u,j)
 		os.remove(m)
-tyhjennys="C:\\Users\\Miku\\Desktop\\tyo\\boost" #KORVAAVIA ÄÄNIÄ boostattu Audacitylla. Poistetaan muokatut äänet.
+tyhjennys="C:\\Users\\User\\Desktop\\tyo\\boost" #KORVAAVIA ÄÄNIÄ boostattu Audacitylla. Poistetaan muokatut äänet.
 k = os.listdir(tyhjennys)
 for i in k:
 	u = os.path.join(tyhjennys,i)
@@ -96,7 +96,7 @@ for i in f:
 #----------------------------------------------------------#
 
 #----------------------------------------------------------#
-#ALUSTETAAN PROSESSI-IKKUNA
+#ALUSTETAAN PROSESSI-IKKUNA	|| Historiallisista syistä pidän tämän projektissa, mutta ei mikään hirveän mukava moduuli tuo PySimpleGUI
 #----------------------------------------------------------#
 sg.ChangeLookAndFeel('GreenTan')
 # sg.SetOptions(progress_meter_color=('red', 'white'))
@@ -158,7 +158,7 @@ while True:
 #----------------------------------------------------------#
 #TYHJENNYS			
 			
-path="C:\\Users\\Miku\\Desktop\\tyo\\Muumit"
+path="C:\\Users\\User\\Desktop\\tyo\\Muumit"
 k = os.listdir(path)
 for i in k:
 	u = os.path.join(path,i)
@@ -166,7 +166,7 @@ for i in k:
 	for j in w:
 		m = os.path.join(u,j)
 		os.remove(m)
-path2="C:\\Users\\Miku\\Desktop\\tyo\\boost"
+path2="C:\\Users\\User\\Desktop\\tyo\\boost"
 k = os.listdir(path2)
 for i in k:
 	u = os.path.join(path2,i)
@@ -177,7 +177,7 @@ o = pyIMAPI.open("Taikurinhattu.iso")
 
 k = os.listdir()
 print(k)
-p="C:\\Users\\Miku\\Desktop\\tyo\\isoon\\"
+p="C:\\Users\\User\\Desktop\\tyo\\isoon\\"
 print(k)
 for i in k:
     if i == "ASENNA.EXE" or i=="AUTORUN.INF":
